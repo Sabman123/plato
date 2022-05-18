@@ -1,0 +1,607 @@
+
+
+
+#logo{
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 3em;
+    font-weight: bold;
+    margin:  26px 0 0 -19px;
+}
+
+#logo  a{
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 20px;
+    
+    
+}
+
+
+
+
+
+.navbar-default{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    margin: 41px 0 0 0;
+    float: right;
+    
+}
+
+.navbar-default .navbar-nav>.active>a{
+    background-color: transparent;
+
+}
+.navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+    color: white;
+
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a{
+    padding: 0 0 20px 20px;
+    font-size: 13px;
+    color: #ddd;
+    text-decoration: none;
+    text-shadow: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+   
+    
+}
+
+
+.navbar .nav li.active a{
+    color: #4eb478;
+}
+
+.navbar-default .navbar-collapse{
+    border: none;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: #383838;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle{
+    background-color: #353535;
+    
+}
+    
+
+
+#section1{
+    max-width: 100%;
+    background: #f5f5f5;
+    height: auto;
+    margin: 0 auto;
+    
+    padding: 0;
+    border-bottom: 1px solid #e9e9e9;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+#h2div{
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -2px;
+
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+
+
+.highlight{
+    color: #fff;
+    padding: 2px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.p1div{
+    padding: 10px 41px 20px 0 !important;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-family: 'Open Sans',sans-serif;
+   
+}
+
+ #listdiv{
+    font-size: 20px;
+    list-style: none;
+    font-weight: 600;
+    color: rgb(99, 98, 98);
+    line-height: 21px;
+    margin: 0 0 16px 5px;
+    
+   
+
+}
+
+#listdiv span{
+    padding: 0 0 0 21px !important;
+}
+
+
+
+#icon1{
+    font-size: 70px;
+    color: white;
+    background-color: #4eb478;
+    padding: 9px 25px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.textdiv{
+    float: left !important;
+    padding-left: 150px !important;
+}
+
+.textdiv a{
+    background-color: #4eb478;
+    border-radius: 14px;
+    text-decoration: none;
+    color: white;
+    padding: 6px 8px;
+    font-size: 13px;
+}
+
+.textdiv a:hover{
+    background-color: #2b7048;
+}
+
+
+.textdiv h3{
+    letter-spacing: -2px;
+    font-weight: 600;
+    font-size: 26px;
+    margin: 8px 0 28px 0;
+}
+
+.textdiv p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    line-height: 1.6em;
+    color: #666;
+    margin: 0 0 15px;
+}
+
+
+
+/* tow col 4 css*/
+#icon2{
+    font-size: 70px;
+    color: white;
+    background: #333;
+    padding: 9px 25px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+/* three col 4 css*/
+#icon3{
+    font-size: 70px;
+    color: white;
+    background: #333;
+    padding: 9px 25px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
+#rowdiv{
+ margin: 0  0 0 0 !important;
+
+}
+
+#h2div h2{
+    padding: 30px 20px 20px 0px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    font-size: 33px;
+    margin: 5px 0 14px 0;
+
+    
+}
+
+#h2div a{
+    background-color: #4eb478;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 11px 11px;
+    margin: -78px 0 0 0;
+    font-size: 17.5px;
+    float: right;
+    letter-spacing: 0px;
+}
+
+#h2div a:hover{
+    background-color: #2b7048;
+}
+
+
+
+/*acardion css*/
+.panel-default>.panel-heading{
+    background-color: rgb(238, 236, 236);
+}
+
+
+
+.panel-default>.panel-heading:hover{
+    background-color: #56c886;
+    
+}
+
+
+.panel-default>.panel-heading a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    padding: 5px 0 ;
+    
+}
+
+.panel-default>.panel-heading:hover{
+    color: white;
+}
+
+
+.panel-default{
+    border: none;
+    border-bottom: none;
+}
+
+
+
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body{
+    border-top-color: none;
+    background-color: #f5f5f5;
+    color: #787777 ;
+}
+
+
+
+
+
+#aboutus h3{
+    font-family: OpenSans;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+/* Tab Content Start */
+
+.container-fluid{
+    margin: 0px 0 0 0px;
+}
+
+
+#tabcontainer{
+    padding: 0;
+}
+
+#tabcontainer p{
+    padding: 20px 20px 25px;
+    background-color: #f5f5f5;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 23px;
+    color: #777;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#tabcontainer p i{
+    font-size: 41px;
+    color: #e7e7e7;
+    position: absolute;
+    right: 20px;
+    bottom: -15px;
+}
+
+#tabcontainer span:first-of-type{
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: bold;
+    color: #444;
+    display: block;
+}
+
+#tabcontainer span:last-of-type{
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #aaa;
+    display: block;
+}
+/* Tab Content End */
+
+/* Nav Tab List Start */
+#tabcontainer ul{
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+#tabcontainer ul li{
+    margin-right: 8px;
+}
+
+#tabcontainer ul li a{
+    background-color: #7d7d7d;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    padding: 0;
+}
+
+#tabcontainer ul li a:hover{
+    border: 0;
+}
+
+#tabcontainer ul li.active a{
+    background-color: #191919;
+}
+
+#tabcontainer ul li.active a:hover{
+    border: 0;
+
+}
+
+
+
+/*footer css start*/
+#footerback{
+    background-color: #3a3a3a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* Plato Column Start */
+#platocolumn a{
+    display: block;
+    font-family: OpenSansBold;
+    font-size: 26px;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+#platocolumn p{
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #7e7e7e;
+    margin-bottom: 5px;
+}
+
+#platocolumn p:first-of-type{
+    font-weight: bold;
+}
+/* Plato Column End */
+
+/* Browse Pages Column Start */
+#browsepagescolumn h3{
+    font-family: OpenSans;
+    font-size: 22px;
+    color: #e8e8e8;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#browsepagescolumn ul{
+    list-style-image: url('../images/footer-bullet.png');
+    padding-left: 20px;
+}
+
+#browsepagescolumn ul li{
+    margin-bottom: 10px;
+}
+
+#browsepagescolumn ul li a{
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #bbb;
+    transition: .5s ease-in;
+}
+
+#browsepagescolumn ul li a:hover{
+    color: #398b5b;
+}
+/* Browse Pages Column End */
+
+/* Flickr Column Start */
+#flickrcolumn h3{
+    font-family: OpenSans;
+    font-size: 22px;
+    color: #e8e8e8;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Flickr Photos Div Start */
+#flickrcolumn .photos a img{
+    width: 60px;
+    padding: 0 6px 20px 0;
+}
+/* Flickr Photos Div End */
+
+/* Flickr Column End */
+
+
+/* Keep Updated Column Start */
+#keepupdated h3{
+    font-family: OpenSans;
+    font-size: 22px;
+    color: #e8e8e8;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#keepupdated p{
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #7e7e7e;
+    margin-bottom: 15px;
+}
+
+
+/* Form Elements Start */
+#keepupdated input[type=email]{
+    width: 168;
+    height: 28px;
+    padding: 4px 6px;
+    font-family: OpenSans;
+    font-size: 13px;
+    float: left;
+}
+
+#keepupdated input[type=submit]{
+    width: 77px;
+    height: 27px;
+    border: none;
+    background-color: #4eb478;
+    font-family: OpenSans;
+    font-size: 13px;
+    color: white;
+    transition: .5s ease-in;
+}
+
+#keepupdated input[type=submit]:hover{
+    background-color: #398b5b;
+}
+/* Form Elements End */
+
+/* Social Icons Div Start */
+#socialicons{
+    margin-top: 30px;
+}
+
+#socialicons a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: white;
+    color: #444;
+    font-size: 16px;
+    transition: .5s ease-in;
+}
+
+#socialicons a:hover{
+    background-color: #4eb478;
+    color: white;
+}
+/* Social Icons Div End */
+
+/* Keep Updated Column End */
+
+/* ***** Footer Background Div End ***** */
+
+/* ***** Copyright Start ***** */
+#copyrightback{
+    background-color: #222;
+    border-top: 5px solid #4eb478;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#copyrightcontainer p{
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #7e7e7e;
+}
+
+#copyrightcontainer p span{
+    float:right;
+}
+
+#copyrightcontainer p span a{
+    color: #4eb478;
+    transition: .5s ease-in;
+}
+
+#copyrightcontainer p span a:hover{
+    color: #398b5b;
+}
+/* ***** Copyright End ***** */
+
+
+
+/*media 580px*/
+
+@media only screen and (max-width: 580px) {
+       
+       .textdiv{
+        padding-left: 150px !important;
+        float: none !important;
+       }
+
+       .navbar-default{
+           margin: 0 0 0 0 !important;
+           float: none !important;
+           
+       }
+       #uldiv ul li  a{
+           text-align: center !important;
+       } 
+
+       
+       
+       #aboutus{
+           margin-bottom: 20px; 
+       }
+
+       #h2div h2{
+        font-size: 28px;
+        line-height: 38px;
+       }
+
+
+       #h2div a {
+        margin: -63px 0 0 0;
+       }
+
+       .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+        background-color: #383838;
+    }
+    
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle{
+        background-color: #353535;
+        float: right;
+    }
+
+       
+      
+
+  }
+
+
+
+
+  
